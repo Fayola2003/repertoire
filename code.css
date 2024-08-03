@@ -1,0 +1,37 @@
+.example-inline-bloc {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-right: 10px;
+}
+.example-inline {
+    display: inline;
+    width: 100px;
+    height: 100PX;
+    background-color: RED;
+    margin-right: 10px;
+}
+.example-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: lightgray;
+}
+.example-grid div {
+    padding: 10px;
+    background-color: lightblue;
+}
+.example-table {
+    display: table;
+    width: 100%;
+    background-color: lightgray;
+}
+.example-table-row{
+    display: table-row;
+}
+.example-table-cell{
+    display: table-cell;
+    padding: 5px;
+    background-color: lightblue;
+}
